@@ -8,4 +8,6 @@
 #end
 
 
-def new_map(array); new_array = []; array.each { |item| new_array << yield item }; new_array; end
+def square_array(array); new_array = []; array.each { |number| new_array << yield number }; new_array; end
+  
+  
